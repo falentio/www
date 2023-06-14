@@ -1,0 +1,7 @@
+body {
+	--uno: font-comic;
+}
+
+a {
+	--uno: text-inherit decoration-none;
+}
