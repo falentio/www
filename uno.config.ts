@@ -39,11 +39,6 @@ export default defineConfig({
         }),
     ],
     transformers: [
-        prod && compileClass({
-            trigger,
-            hashFn: createHash(),
-            classPrefix: ""
-        }),
         variantGroup(),
         directives()
     ].filter(Boolean) as any[],
