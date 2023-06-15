@@ -65,8 +65,8 @@
 
 	<label
 		for="menu"
-		class="m-4 mt-0 rounded-full bg-zinc-8 shadow h-8 w-8 p-1 sm:hidden pointer-events-auto"
+		class="m-4 mt-0 rounded-full bg-zinc-8 shadow h-8 w-8 p-2 sm:hidden pointer-events-auto text-sky-4"
 	>
-		<span class="i-mdi:menu bg-zinc-7" />
+		<span class="i-mdi:menu" />
 	</label>
 </div>
