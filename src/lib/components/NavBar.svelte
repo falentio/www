@@ -13,7 +13,7 @@
 	};
 </script>
 
-<div class="<sm:(bottom-0 fixed) sm:(sticky top-0) flex flex-col w-max z-30">
+<div class="flex flex-col w-max z-30 <sm:(bottom-0 fixed) sm:(sticky top-0)">
 	<input type="checkbox" id="menu" class="hidden peer" on:change={onChange} />
 	<div
 		class="flex-auto transition-all duration-350 pointer-events-auto -left-full <sm:(relative text-2xl peer-checked:left-0) flex flex-row"

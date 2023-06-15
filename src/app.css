@@ -5,3 +5,7 @@ body {
 a {
 	--uno: text-inherit decoration-none;
 }
+
+* {
+	box-sizing: border-box;
+}

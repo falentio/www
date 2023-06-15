@@ -19,7 +19,7 @@
 
 <div class="min-h-screen bg-zinc-7 text-sky-2 flex flex-col sm:flex-row relative overflow-x-clip">
 	<NavBar />
-	<div class="flex-col z-40 mx-auto container">
+	<div class="flex-col p-4 flex-auto z-40 mx-auto container">
 		<slot />
 	</div>
 </div>
