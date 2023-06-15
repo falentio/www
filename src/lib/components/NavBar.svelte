@@ -16,7 +16,7 @@
 <div class="flex flex-col w-max z-30 <sm:(bottom-0 fixed) sm:(sticky top-0)">
 	<input type="checkbox" id="menu" class="hidden peer" on:change={onChange} />
 	<div
-		class="flex-auto transition-all duration-350 pointer-events-auto -left-full <sm:(relative text-2xl peer-checked:left-0) flex flex-row"
+		class="flex-auto transition-all duration-350 -left-full <sm:(relative text-2xl peer-checked:left-0) flex flex-row"
 	>
 		<nav class="p-2 text-xl sm:(h-screen bg-zinc-8 w-36) overflow-y-auto flex flex-col">
 			{#if $page.url.pathname !== "/"}
@@ -63,10 +63,7 @@
 		</nav>
 	</div>
 
-	<label
-		for="menu"
-		class="m-4 mt-0 rounded-full bg-zinc-8 shadow h-8 w-8 p-2 sm:hidden pointer-events-auto text-sky-4"
-	>
+	<label for="menu" class="m-4 mt-0 rounded-full bg-zinc-8 shadow h-8 w-8 p-2 sm:hidden text-sky-4">
 		<span class="i-mdi:menu" />
 	</label>
 </div>
