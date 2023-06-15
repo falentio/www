@@ -6,7 +6,7 @@
 <div class="<sm:(absolute w-full flex flex-col h-full pointer-events-none )">
 	<div class="h-[9999rem] sm:hidden" />
 	<div class="<sm:bottom-0 sticky top-0 min-h-screen flex flex-col w-max z-30">
-		<input type="checkbox" id="menu" class="hidden peer" checked />
+		<input type="checkbox" id="menu" class="hidden peer" />
 		<div
 			class="flex-auto transition-all duration-350 pointer-events-auto -left-full <sm:(relative text-2xl peer-checked:left-0) flex flex-row"
 		>
