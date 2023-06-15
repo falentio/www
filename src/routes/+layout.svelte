@@ -17,9 +17,9 @@
 	});
 </script>
 
-<div class="min-h-screen bg-zinc-7 text-sky-2 flex flex-row relative overflow-x-clip">
+<div class="min-h-screen bg-zinc-7 text-sky-2 flex flex-col sm:flex-row relative overflow-x-clip">
 	<NavBar />
-	<div class="w-full flex-col px-4">
+	<div class="w-full flex-col px-4 z-40">
 		<slot />
 	</div>
 </div>
