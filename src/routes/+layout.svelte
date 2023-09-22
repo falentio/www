@@ -1,25 +1,22 @@
-<script>
+<script lang="ts">
+	import "@fontsource/montserrat";
+	import "@unocss/reset/tailwind.css";
 	import "virtual:uno.css";
-	import "@fontsource/comic-mono";
-	import "@unocss/reset/eric-meyer.css";
 	import "../app.css";
-	import NavBar from "$lib/components/NavBar.svelte";
-	import { onMount } from "svelte";
-
-	onMount(() => {
-		const base = new URL(window.location.href);
-		for (const a of document.querySelectorAll("a")) {
-			const href = new URL(a.href, base);
-			if (href.hostname !== window.location.hostname) {
-				a.target ||= "_blank";
-			}
-		}
-	});
+	import Navbar from "$lib/components/Navbar.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<div class="min-h-screen bg-zinc-7 text-sky-2 flex flex-col sm:flex-row relative overflow-x-clip">
-	<NavBar />
-	<div class="flex-col p-4 mx-auto container">
+<svelte:head>
+	<script>
+		document.onload = document.body.classList.toggle("dark", localStorage["dark"] == "true");
+	</script>
+</svelte:head>
+
+<main class="flex flex-col bg-background min-h-screen w-screen">
+	<Navbar />
+	<div class="flex-auto [&>*]:(max-w-3xl mx-auto w-full) z-0">
 		<slot />
 	</div>
-</div>
+	<Footer />
+</main>

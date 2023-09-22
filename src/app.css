@@ -1,11 +1,8 @@
 body {
-	--uno: font-comic;
-}
-
-a {
-	--uno: text-inherit decoration-none;
+	--uno: font-montserrat;
 }
 
 * {
 	box-sizing: border-box;
+	--uno: "dark:border-blue-7 border-blue-3";
 }
