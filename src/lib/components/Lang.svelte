@@ -8,7 +8,7 @@
 		{href}
 		target="_blank"
 		referrerpolicy="no-referrer"
-		rel="e"
+		rel="external"
 		class="underline"><slot /></a
 	>
 </div>

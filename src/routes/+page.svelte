@@ -18,7 +18,7 @@
 			Hello, I am Kevin Falentio and I am Software Developer. I mainly use
 			<Lang href="https://typescriptlang.org" logo="i-mdi:language-typescript">Typescript</Lang>
 			programming language, and also using some other languages likes
-			<Lang href="https://go.dev" logo="i-mdi:language-go">Go</Lang>,
+			<Lang href="https://go.dev" logo="i-mdi:language-go">Golang</Lang>,
 			<Lang href="https://en.wikipedia.org/wiki/JavaScript" logo="i-mdi:language-javascript">
 				Javascript
 			</Lang>,
