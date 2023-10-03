@@ -14,9 +14,11 @@
 <div class="flex flex-row <md:(flex-col text-center p-4) px-4 py-16 gap-8 justify-between">
 	<section class="flex flex-col gap-4">
 		<h1 class="font-bold text-5xl text-blue-7">Kevin Falentio</h1>
-		<p class="static items-center z-0">
-			Hello, I am Kevin Falentio and I am Software Developer. I mainly use
-			<Lang href="https://typescriptlang.org" logo="i-mdi:language-typescript">Typescript</Lang>
+		<p class="items-center z-0">
+			Hello, I am Kevin Falentio and I am Software Developer. I mainly use<Lang
+				href="https://typescriptlang.org"
+				logo="i-mdi:language-typescript">Typescript</Lang
+			>
 			programming language, and also using some other languages likes
 			<Lang href="https://go.dev" logo="i-mdi:language-go">Golang</Lang>,
 			<Lang href="https://en.wikipedia.org/wiki/JavaScript" logo="i-mdi:language-javascript">
