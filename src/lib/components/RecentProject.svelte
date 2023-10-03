@@ -15,12 +15,12 @@
 					<span class="text-xl font-semibold">PRoject Foo</span>
 					<ul class="flex flex-row gap-1 justify-end">
 						<li>
-							<a target="_blank" class="" href="//github.com/falentio">
+							<a aria-label="github" target="_blank" class="" href="//github.com/falentio">
 								<span class="i-mdi:github w-6 h-6" /></a
 							>
 						</li>
 						<li>
-							<a target="_blank" class="" href="//github.com/falentio">
+							<a aria-label="website" target="_blank" class="" href="//github.com/falentio">
 								<span class="i-mdi:launch w-6 h-6" /></a
 							>
 						</li>

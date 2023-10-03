@@ -4,7 +4,7 @@
 		{#each Array(6) as _}
 			<div class="grid grid-cols-3 rounded-lg shadow border overflow-hidden max-w-sm">
 				<div class="w-full aspect-square relative">
-					<img loading="lazy" src="//catsum.deno.dev/seed/{_}/300" alt={_} />
+					<img loading="lazy" alt="blog thumbnail" src="//catsum.deno.dev/seed/{_}/300" />
 				</div>
 				<section class="p-2 col-span-2">
 					<h3 class="font-semibold text-lg capitalize">Foooo</h3>

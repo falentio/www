@@ -3,7 +3,13 @@
 	import Profile from "$lib/components/Profile.svelte";
 	import RecentBlog from "$lib/components/RecentBlog.svelte";
 	import RecentProject from "$lib/components/RecentProject.svelte";
+	import { MetaTags } from "svelte-meta-tags";
 </script>
+
+<MetaTags
+	title="Kevin Falentio Website"
+	description="Welcome to my website, I hope you love my website"
+/>
 
 <div class="flex flex-row <md:(flex-col text-center p-4) px-4 py-16 gap-8 justify-between">
 	<section class="flex flex-col gap-4">

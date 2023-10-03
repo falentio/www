@@ -37,7 +37,7 @@
 				on:click={() => ($dark = !$dark)}
 				class="text-blue-7 p-2 border rounded-md relative"
 				class:bg={open}
-				name="dark mode toggle"
+				aria-label="dark mode toggle"
 			>
 				<span class:scale-0={!$dark} class="i-carbon:moon w-6 h-6 transition-all" />
 				<span class:scale-0={$dark} class="i-carbon:sun w-6 h-6 transition-all absolute top-2" />
@@ -46,6 +46,7 @@
 				on:click={() => (open = !open)}
 				class="text-blue-7 md:hidden p-2 border rounded-md"
 				class:bg={open}
+				aria-label="navigation"
 			>
 				<span class="i-mdi:menu w-6 h-6" />
 			</button>
