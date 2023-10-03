@@ -5,6 +5,7 @@
 			<div class="max-w-90 border w-full flex flex-col mx-auto overflow-hidden shadow rounded-lg">
 				<div class="aspect-[2/1]">
 					<img
+						loading="lazy"
 						src="//catsum.deno.dev/seed/project-1/400/200"
 						alt="project"
 						class="w-full object-cover"
