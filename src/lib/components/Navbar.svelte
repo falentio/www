@@ -8,7 +8,7 @@
 </script>
 
 <div class="h-12 <md:order-last" />
-<div class="<md:(bottom-0 w-full) fixed h-12 md:top-0 w-full z-50">
+<div class="<md:(bottom-2 w-full) fixed h-12 md:top-0 w-full z-50">
 	<div class="relative flex flex-col items-end md:hidden">
 		<input checked={open} type="checkbox" class="hidden peer" />
 		<button
@@ -26,28 +26,29 @@
 		</div>
 	</div>
 	<nav
-		class="md:border-b <md:border-t p-x4 py-2 flex flex-row gap-2 items-center z-50 relative bg-background"
+		class="md:border-b <md:border-t px-4 py-2 flex flex-row justify-between gap-2 items-center z-50 relative bg-background"
 	>
-		<a class="text-xl font-semibold" href="/"> Falentio</a>
-		<span class="flex-auto" />
-		<div class="hidden md:flex flex-row gap-4 [&>*]:(w-full) [&_span]:(hidden)">
+		<a class="text-xl font-semibold flex-1" href="/"> Falentio</a>
+		<div class="hidden flex-auto md:flex flex-row gap-4 justify-center [&_span]:(hidden)">
 			<Menu />
 		</div>
-		<span class="flex-auto" />
-		<button
-			on:click={() => ($dark = !$dark)}
-			class="text-blue-7 p-2 border rounded-md relative"
-			class:bg={open}
-		>
-			<span class:scale-0={!$dark} class="i-carbon:moon w-6 h-6 transition-all" />
-			<span class:scale-0={$dark} class="i-carbon:sun w-6 h-6 transition-all absolute top-2" />
-		</button>
-		<button
-			on:click={() => (open = !open)}
-			class="text-blue-7 md:hidden p-2 border rounded-md"
-			class:bg={open}
-		>
-			<span class="i-mdi:menu w-6 h-6" />
-		</button>
+		<div class="flex-1 flex flex-row justify-end gap-2">
+			<button
+				on:click={() => ($dark = !$dark)}
+				class="text-blue-7 p-2 border rounded-md relative"
+				class:bg={open}
+				name="dark mode toggle"
+			>
+				<span class:scale-0={!$dark} class="i-carbon:moon w-6 h-6 transition-all" />
+				<span class:scale-0={$dark} class="i-carbon:sun w-6 h-6 transition-all absolute top-2" />
+			</button>
+			<button
+				on:click={() => (open = !open)}
+				class="text-blue-7 md:hidden p-2 border rounded-md"
+				class:bg={open}
+			>
+				<span class="i-mdi:menu w-6 h-6" />
+			</button>
+		</div>
 	</nav>
 </div>

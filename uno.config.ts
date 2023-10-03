@@ -35,6 +35,7 @@ export default defineConfig({
     shortcuts: {
         "to-background": "to-white dark:to-slate-950",
         "bg-background": "bg-white text-slate-950 dark:bg-slate-950 dark:text-blue-2",
+        "text-inverse": "text-blue-2 dark:text-slate-950",
         "bg-focus": "bg-slate-2 dark:bg-slate-7"
     },
     safelist: ["hidden"],

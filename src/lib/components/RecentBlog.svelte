@@ -1,5 +1,5 @@
-<section class="p-4">
-	<h2 class="text-3xl font-semibold text-blue-7">Blog</h2>
+<section class="p-4 w-full overflow-hidden">
+	<h2 class="text-3xl font-semibold text-blue-7 mb-4">Recent Blog</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 justify-items-center gap-2 py-2">
 		{#each Array(6) as _}
 			<div class="grid grid-cols-3 rounded-lg shadow border overflow-hidden max-w-sm">

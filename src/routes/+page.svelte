@@ -2,6 +2,7 @@
 	import Lang from "$lib/components/Lang.svelte";
 	import Profile from "$lib/components/Profile.svelte";
 	import RecentBlog from "$lib/components/RecentBlog.svelte";
+	import RecentProject from "$lib/components/RecentProject.svelte";
 </script>
 
 <div class="flex flex-row <md:(flex-col text-center p-4) px-4 py-16 gap-8 justify-between">
@@ -22,3 +23,4 @@
 	<Profile imgClass="w-48" class="<md:order-first" />
 </div>
 <RecentBlog />
+<RecentProject />
