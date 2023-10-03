@@ -3,7 +3,7 @@
 	export let href: string;
 </script>
 
-<div class="inline-flex flex-row vertical-end gap-1 antialiased">
+<div>
 	<span class="{logo} h-6 w-6 self-center text-blue-7" /><a
 		{href}
 		target="_blank"
@@ -12,3 +12,9 @@
 		class="underline"><slot /></a
 	>
 </div>
+
+<style>
+	div {
+		--uno: "inline-flex flex-row vertical-end gap-1 antialiased";
+	}
+</style>
