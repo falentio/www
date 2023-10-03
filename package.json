@@ -27,6 +27,7 @@
 		"@unocss/transformer-compile-class": "^0.53.6",
 		"@unocss/transformer-directives": "^0.53.6",
 		"@unocss/transformer-variant-group": "^0.53.6",
+		"mdsvex": "^0.11.0",
 		"prettier": "^2.8.8",
 		"prettier-plugin-svelte": "^2.10.1",
 		"svelte": "^3.59.2",
